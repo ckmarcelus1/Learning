@@ -9,5 +9,5 @@ puts  "Hi, what's your name? "
 	puts "Great meeting you " + name5 + "!"
 
 puts "Whats your favorite number?"
-num1 =(gets.chomp.to_i + 1).to_s
+num1 =(gets.to_i + 1).to_s
 puts  "A much better number is " + num1 
