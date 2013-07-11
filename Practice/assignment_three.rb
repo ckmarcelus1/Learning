@@ -14,25 +14,40 @@ puts "Now there's no more beers on the wall"
 
 
 
+count = 0
 while true
  	puts "Hhuhh?!? speak up"
 	word = gets.chomp
-
-	if word == "BYE"
-		puts "BYE SWEETIE!"
-		break
-
-		
-	end
-	if word != word.upcase
-		puts "HUH? SPEAK UP, SONNY!!"
-	else
-		year = 1930 +rand(21)
-		puts "No, not since " + year.to_s+"!"
-		break
-		
 	
+	if word == "BYE"
+		count = count + 1
+
+	else count = 0
+
+		
 	end
+	
+	if count >= 3
+			
+		break
+
+		puts "BYE SWEETIE!"
+			
+		end
+
+		
+	if word != word.upcase
+			puts "HUH? SPEAK UP, SONNY!!"
+		else
+			year = 1930 +rand(21)
+			puts "No, not since " + year.to_s+"!"
+			
+
+		
+		end
+
+
+			
 	
 	
 	
