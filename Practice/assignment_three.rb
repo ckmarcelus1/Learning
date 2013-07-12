@@ -41,18 +41,29 @@ while true
 		else
 			year = 1930 +rand(21)
 			puts "No, not since " + year.to_s+"!"
-			
-
-		
+				
 		end
-
-
-			
 	
-	
-	
-
 end
 	
+
+puts "Pick 2 years, any years!!"
+
+year1 = gets.chomp.to_i
+year2 = gets.chomp.to_i
+
+while year1 <= year2
+	year1 = year1 + 1
+	
+
+	if  year1%4 == 0 && (year1%100 != 0 || year1%400 == 0)
+
+		puts year1
+
+	end
+
+end
+
+
 
 
