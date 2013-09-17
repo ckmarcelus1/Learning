@@ -1,5 +1,5 @@
 
-def grand_clock &dong 
+def grandclock &dong 
 	now = Time.new.hour
 
 	if now - 12 > 0
@@ -13,7 +13,12 @@ def grand_clock &dong
 		
 	end
 end
-grand_clock do
+grandclock do
 	puts "Dong!"
 	end
 
+
+
+def myGoal aptitude  # this turns an if else statement into one line
+	aptitude == :high ? :professor : :fast_food
+end

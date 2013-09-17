@@ -102,6 +102,7 @@ end
 puts @name + '\'s stomach grumbles...'
 end
 
+
 if poopy?
 if @asleep
 @asleep = false
