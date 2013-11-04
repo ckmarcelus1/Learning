@@ -5,11 +5,11 @@
       prohibited this product from being saved:</h2>
       
       <ul>
-        <% @product.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-        </ul>
-      </div>
+      <% @product.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
   <% end %>
   
   <div class="field">
