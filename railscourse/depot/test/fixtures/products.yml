@@ -2,18 +2,12 @@
 
 one:
   title: MyString
-  string: MyString
   description: MyText
   image_url: MyString
-  string: MyString
-  price: MyString
-  decimal: MyString
+  price: 9.99
 
 two:
   title: MyString
-  string: MyString
   description: MyText
   image_url: MyString
-  string: MyString
-  price: MyString
-  decimal: MyString
+  price: 9.99
